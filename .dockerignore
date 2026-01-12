@@ -1,0 +1,9 @@
+vendor/
+storage/
+docker/
+.vscode
+.phpunit.cache
+.env
+.git
+.DS_Store
+.env.*

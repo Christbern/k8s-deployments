@@ -1,0 +1,7 @@
+resources:
+  - deployment.yaml
+  - service.yaml
+  - ingress.yaml
+  - configs.yaml
+  - secrets.yaml
+  # - migrate-seed-job.yaml

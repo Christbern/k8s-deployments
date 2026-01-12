@@ -1,0 +1,24 @@
+resources:
+  - ../../base
+
+namePrefix: vic-
+
+commonLabels:
+  tenant: vic
+  app: vic
+
+patches:
+  - path: patch-ingress.yaml
+
+configMapGenerator:
+  - name: config
+    literals:
+      # - APP_NAME=Tito Client 1
+      # - APP_ENV=production
+      - APP_URL=https://vic.tito.io
+
+secretGenerator:
+  - name: secrets
+    literals:
+      - APP_KEY=base64:T6UC4A92GV0d4GZUFjyim+YAaAuwFSLpR9pgGoMCztc=
+      - DB_PASSWORD=secret

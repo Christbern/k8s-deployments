@@ -1,0 +1,10 @@
+resources:
+  - ../../base
+
+namePrefix: christbern-
+
+commonLabels:
+  app: christbern
+
+patches:
+  - path: path-ingress.yaml

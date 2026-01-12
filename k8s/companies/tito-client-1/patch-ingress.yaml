@@ -1,0 +1,10 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress
+spec:
+  tls:
+    - hosts:
+        - tito-client-1.kagoo.io
+  rules:
+    - host: tito-client-1.kagoo.io
