@@ -16,7 +16,8 @@ configMapGenerator:
       # - APP_NAME=Tito Client 1
       # - APP_ENV=production
       - APP_URL=https://vic.tito.io
-    behavior: merge
+    options:
+      disableNameSuffixHash: true
 
 secretGenerator:
   - name: secret
