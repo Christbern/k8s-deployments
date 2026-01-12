@@ -7,9 +7,9 @@ commonLabels:
   tenant: tito-client-1
   app: tito-client-1
 
-patches:
-  - path: patch-ingress.yaml
-  - path: patch-deployment.yaml
+patchesStrategicMerge:
+  - patch-ingress.yaml
+  - patch-deployment.yaml
 
 configMapGenerator:
   - name: config
