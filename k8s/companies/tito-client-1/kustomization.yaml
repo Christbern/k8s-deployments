@@ -11,18 +11,18 @@ patches:
   - path: patch-ingress.yaml
 
 configMapGenerator:
-  - name: config
+  - name: tito-client-1-config
     literals:
       # - APP_NAME=Tito Client 1
       # - APP_ENV=production
       - APP_URL=https://client1.tito.io
-    behavior: merge
+    options:
+      disableNameSuffixHash: true
 
 secretGenerator:
-  - name: secret
+  - name: tito-client-1-secret
     literals:
       - APP_KEY=base64:T6UC4A92GV0d4GZUFjyim+YAaAuwFSLpR9pgGoMCztc=
       - DB_PASSWORD=secret
-    behavior: merge
     options:
       disableNameSuffixHash: true

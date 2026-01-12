@@ -23,6 +23,5 @@ secretGenerator:
     literals:
       - APP_KEY=base64:T6UC4A92GV0d4GZUFjyim+YAaAuwFSLpR9pgGoMCztc=
       - DB_PASSWORD=secret
-    behavior: merge
     options:
       disableNameSuffixHash: true
