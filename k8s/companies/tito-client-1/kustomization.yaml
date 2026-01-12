@@ -16,11 +16,13 @@ configMapGenerator:
       # - APP_NAME=Tito Client 1
       # - APP_ENV=production
       - APP_URL=https://client1.tito.io
+    behavior: merge
 
 secretGenerator:
   - name: secret
     literals:
       - APP_KEY=base64:T6UC4A92GV0d4GZUFjyim+YAaAuwFSLpR9pgGoMCztc=
       - DB_PASSWORD=secret
+    behavior: merge
     options:
       disableNameSuffixHash: true
