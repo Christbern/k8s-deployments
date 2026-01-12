@@ -1,2 +1,3 @@
 argocd/
 mycert.pem
+secrets.yaml
