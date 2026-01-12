@@ -1,7 +1,7 @@
 resources:
   - ../../base
 
-#namePrefix: tito-client-1-
+namePrefix: tito-client-1- # le probleme de no decrypt vient d'ici !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 commonLabels:
   tenant: tito-client-1
