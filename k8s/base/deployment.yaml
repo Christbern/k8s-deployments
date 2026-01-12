@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: kagoo-app
-          image: mcdocker643/erp-kagoo:v0.1 # à changer erp-kagoo - kagoo-os
+          image: mcdocker643/erp-kagoo:v0.01 # à changer erp-kagoo - kagoo-os
           ports:
             - containerPort: 8000
           envFrom:
