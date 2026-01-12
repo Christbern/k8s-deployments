@@ -6,7 +6,6 @@ data:
   APP_ENV: local
   APP_DEBUG: "true"
   APP_NAME: Kagoo
-  APP_KEY: base64:T6UC4A92GV0d4GZUFjyim+YAaAuwFSLpR9pgGoMCztc=
   DB_CONNECTION: mysql
   DB_PORT: "3306"
   MAIL_DRIVER: smtp

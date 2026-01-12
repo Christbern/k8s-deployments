@@ -1,3 +1,5 @@
+namespace: staging
+
 resources:
   - deployment.yaml
   - service.yaml
