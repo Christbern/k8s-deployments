@@ -21,7 +21,7 @@ spec:
             - containerPort: 8000
           envFrom:
             - configMapRef:
-                name: configs
+                name: config
             - secretRef:
-                name: secrets
+                name: secret
           imagePullPolicy: Always
