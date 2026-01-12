@@ -9,6 +9,7 @@ commonLabels:
 
 patches:
   - path: patch-ingress.yaml
+  - path: patch-deployment.yaml
 
 configMapGenerator:
   - name: config
@@ -18,11 +19,3 @@ configMapGenerator:
       - APP_URL=https://vic.tito.io
     options:
       disableNameSuffixHash: true
-
-# secretGenerator:
-#   - name: secret
-#     literals:
-#       - APP_KEY=base64:T6UC4A92GV0d4GZUFjyim+YAaAuwFSLpR9pgGoMCztc=
-#       - DB_PASSWORD=secret
-#     options:
-#       disableNameSuffixHash: true
