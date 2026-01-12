@@ -14,8 +14,6 @@ patches:
 configMapGenerator:
   - name: config
     literals:
-      # - APP_NAME=Tito Client 1
-      # - APP_ENV=production
       - APP_URL=https://client1.tito.io
     options:
       disableNameSuffixHash: true
