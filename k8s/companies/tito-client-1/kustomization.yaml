@@ -1,7 +1,7 @@
 resources:
   - ../../base
 
-#namePrefix: tito-client-1- # le probleme de no decrypt vient d'ici !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+namePrefix: tito-client-1- # le probleme de no decrypt vient d'ici !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 commonLabels:
   tenant: tito-client-1
@@ -19,10 +19,10 @@ configMapGenerator:
     options:
       disableNameSuffixHash: true
 
-secretGenerator:
-  - name: secret
-    literals:
-      - APP_KEY=base64:T6UC4A92GV0d4GZUFjyim+YAaAuwFSLpR9pgGoMCztc=
-      - DB_PASSWORD=secret
-    options:
-      disableNameSuffixHash: true
+# secretGenerator:
+#   - name: secret
+#     literals:
+#       - APP_KEY=base64:T6UC4A92GV0d4GZUFjyim+YAaAuwFSLpR9pgGoMCztc=
+#       - DB_PASSWORD=secret
+#     options:
+#       disableNameSuffixHash: true

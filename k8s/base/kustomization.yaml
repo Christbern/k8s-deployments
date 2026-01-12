@@ -4,7 +4,6 @@ resources:
   - deployment.yaml
   - service.yaml
   - ingress.yaml
-  - configs.yaml
-  # - secrets.yaml
-  - secrets-sealed.yaml
+  # - configs.yaml
+  # - secrets-sealed.yaml
   # - migrate-seed-job.yaml

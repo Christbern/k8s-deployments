@@ -19,10 +19,10 @@ configMapGenerator:
     options:
       disableNameSuffixHash: true
 
-secretGenerator:
-  - name: secret
-    literals:
-      - APP_KEY=base64:T6UC4A92GV0d4GZUFjyim+YAaAuwFSLpR9pgGoMCztc=
-      - DB_PASSWORD=secret
-    options:
-      disableNameSuffixHash: true
+# secretGenerator:
+#   - name: secret
+#     literals:
+#       - APP_KEY=base64:T6UC4A92GV0d4GZUFjyim+YAaAuwFSLpR9pgGoMCztc=
+#       - DB_PASSWORD=secret
+#     options:
+#       disableNameSuffixHash: true
