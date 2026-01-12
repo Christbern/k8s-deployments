@@ -2,6 +2,6 @@ resources:
   - deployment.yaml
   - service.yaml
   - ingress.yaml
-  - config.yaml
-  - secret.yaml
+  - configs.yaml
+  - secrets.yaml
   # - migrate-seed-job.yaml
