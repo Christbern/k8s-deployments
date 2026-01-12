@@ -7,7 +7,4 @@ resources:
   # - configs.yaml
   # - secrets-sealed.yaml
   # - migrate-seed-job.yaml
-
-patchesStrategicMerge:
-  - patch-ingress.yaml
-  - patch-deployment.yaml
+  
