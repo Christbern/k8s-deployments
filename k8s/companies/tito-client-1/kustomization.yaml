@@ -9,7 +9,7 @@ commonLabels:
 
 patches:
   - path: patch-ingress.yaml
-  - path: patch-deployment.yaml
+  # - path: patch-deployment.yaml
 
 configMapGenerator:
   - name: config
