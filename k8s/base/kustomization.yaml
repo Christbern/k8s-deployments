@@ -7,3 +7,13 @@ resources:
   # - configs.yaml
   # - secrets-sealed.yaml
   # - migrate-seed-job.yaml
+
+nameReference:
+- kind: ConfigMap
+  fieldSpecs:
+    - kind: Deployment
+      path: spec/template/spec/containers/envFrom/name
+- kind: Secret
+  fieldSpecs:
+    - kind: Deployment
+      path: spec/template/spec/containers/envFrom/name

@@ -19,6 +19,7 @@ configMapGenerator:
     options:
       disableNameSuffixHash: true
 
+
 # secretGenerator:
 #   - name: secret
 #     literals:
